@@ -1,0 +1,23 @@
+dl {
+	border: 2px solid black;
+}
+
+dt {
+	font-size: 25px;
+	color: blue;
+	display: inline;
+	margin-left: 5px;
+}
+
+p {
+	margin-left: 70px;
+	color:	#686868;
+	
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url("defaultbackground.jpg");
+    background-position: center bottom;
+    background-repeat: repeat;
+}

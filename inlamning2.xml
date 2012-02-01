@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="inlamning.xsl" type="text/xsl" ?>
+<class> <!--Finns olika classer i WoW, totalt finns det 10 stycken, det är alltså "gubbarna" man kan spela som-->
+	<char id="Mage">  <!--Character är Mage-->
+		<race>Troll</race> <!--raceen är Troll-->
+		<info>Mage</info> <!--Vilken character det är, det är alltså classen "Mage" en caster DPS-->
+		<role>- DPS (Caster)</role> <!--Vilken roll den har i spelet-->
+		<specs>
+				<spec id="1"> <!--1 av 3 specs-->
+					<name>Arcane</name> <!--name på specen-->
+					<ability>Arcane Blast</ability> <!--5 abilities från spec 1-->
+					<ability>Arcane Barrage</ability>
+					<ability>Arcane power</ability>
+					<ability>Arcane Explosion</ability>
+					<ability>Arcane Missile</ability>
+				</spec>
+				<spec id="2"> 
+					<name>Frost</name> 
+					<ability>Frostbolt</ability> <!--5 abilities från spec 2-->
+					<ability>Frost Nova</ability>
+					<ability>Cone of Cold</ability>
+					<ability>Ice Lance</ability>
+					<ability>Water Elemental</ability>
+				</spec>
+				<spec id="3">
+					<name>Fire</name>
+					<ability>Living Bomb</ability> <!--5 abilities från spec 3-->
+					<ability>Combustion</ability>
+					<ability>Fire Blast</ability>
+					<ability>Dragons Breath</ability>
+					<ability>Blast Wave</ability>
+				</spec>
+			</specs>		
+	</char>
+	<char id="Druid">  <!--Character är Druid-->
+		<race id="tauren">Tauren</race> <!--raceen är Tauren-->
+		<info id="druid">Druid</info> <!--Vilken character det är, det är alltså classen "Mage" en caster DPS-->
+		<role>- DPS, Healer, Tank</role> <!--Vilken roll den har i spelet-->
+			<specs>
+				<spec id="1"> <!--1 av 3 specs-->
+					<name>Feral</name>
+					<ability>Mangle</ability> <!--5 abilities från spec 1-->
+					<ability>Traceh</ability>
+					<ability>Shred</ability>
+					<ability>Furious Bite</ability>
+					<ability>Stampeding roar</ability>
+				</spec>
+				<spec id="2">
+					<name>Balance</name> <!--name på specen-->
+					<ability>Wrath</ability> <!--5 abilities från spec 2-->
+					<ability>Starfire</ability>
+					<ability>Starfall</ability>
+					<ability>Mushrooms</ability>
+					<ability>Typhoon</ability>
+				</spec>
+				<spec id="3">
+					<name>Restoration</name>
+					<ability>Healing Touch</ability> <!--5 abilities från spec 3-->
+					<ability>Swiftmend</ability>
+					<ability>Rejuvination</ability>
+					<ability>Lifebloom</ability>
+					<ability>Wild Growth</ability>
+				</spec>
+			</specs>		
+	</char>
+	<char id="Death knight">  <!--Character är Death knight-->
+		<race id="orc">Orc</race> <!--raceen är Tauren-->
+		<info id="death">Death knight</info> <!--Vilken character det är, det är alltså classen "Mage" en caster DPS-->
+		<role>- DPS, Tank</role> <!--Vilken roll den har i spelet-->
+			<specs>
+				<spec id="1"> <!--1 av 3 specs-->
+					<name>Unholy</name>
+					<ability>Scourge strike</ability> <!--5 abilities från spec 1-->
+					<ability>Gargoyle</ability>
+					<ability>Death and decay</ability>
+					<ability>Anti-magic zone</ability>
+					<ability>Summon ghoule</ability>
+				</spec>
+				<spec id="2">
+					<name>Blood</name> <!--name på specen-->
+					<ability>Blood boil</ability> <!--5 abilities från spec 2-->
+					<ability>Anti-magic shield</ability>
+					<ability>Boneshield</ability>
+					<ability>Empowered rune weapon</ability>
+					<ability>Death strike</ability>
+				</spec>
+				<spec id="3">
+					<name>Frost</name>
+					<ability>Obliterate</ability> <!--5 abilities från spec 3-->
+					<ability>Pillar of frost</ability>
+					<ability>Frost strike</ability>
+					<ability>Howling blast</ability>
+					<ability>Icy touch</ability>
+				</spec>
+			</specs>		
+	</char>
+	<char id="Druid">  <!--Character är Druid-->
+		<race id="dranei">Draenei</race> <!--raceen är Tauren-->
+		<info id="paladin">Paladin</info> <!--Vilken character det är, det är alltså classen "Mage" en caster DPS-->
+		<role>- DPS, Healer, Tank</role> <!--Vilken roll den har i spelet-->
+			<specs>
+				<spec id="1"> <!--1 av 3 specs-->
+					<name>Holy</name>
+					<ability>Divine light</ability> <!--5 abilities från spec 1-->
+					<ability>Holy light</ability>
+					<ability>Holy shock</ability>
+					<ability>Flash light</ability>
+					<ability>Holy raidiance</ability>
+				</spec>
+				<spec id="2">
+					<name>Retribution</name> <!--name på specen-->
+					<ability>Crusader strike</ability> <!--5 abilities från spec 2-->
+					<ability>Hammer of justice</ability>
+					<ability>Avenging wrath</ability>
+					<ability>Crusader aura</ability>
+					<ability>Divine storm</ability>
+				</spec>
+				<spec id="3">
+					<name>Protection</name>
+					<ability>Concecration</ability> <!--5 abilities från spec 3-->
+					<ability>Holy wrath</ability>
+					<ability>Shield of righteousness</ability>
+					<ability>Shield slam</ability>
+					<ability>Avenging shield</ability>
+				</spec>
+			</specs>		
+	</char>
+</class>
