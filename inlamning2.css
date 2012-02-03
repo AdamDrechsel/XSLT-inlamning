@@ -6,7 +6,7 @@ dt {
 	font-size: 25px;
 	color: blue;
 	display: inline;
-	margin-left: 5px;
+	margin-left: 5px
 }
 
 p {
@@ -20,4 +20,12 @@ body {
     background-image: url("defaultbackground.jpg");
     background-position: center bottom;
     background-repeat: repeat;
+}
+
+h2 {
+	color: #686898;
+}
+
+ras {
+	color: red;
 }
